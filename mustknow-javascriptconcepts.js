@@ -90,3 +90,72 @@
 // console.log(arr3) //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
+
+
+//make unique values using array
+
+// let arr=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+// let arr2=[...new Set(arr)]
+// console.log(arr) //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// console.log(arr2) //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// let uniqueArr=arr.filter((item,index)=>arr.indexOf(item)===index);
+// console.log(uniqueArr) //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+
+// function abc(a,b,c){
+
+// }
+// function pqr(a=0,b,c){
+
+// }
+// console.log(abc.length,pqr.length); //3,0
+
+
+
+// console.log([]===[])  //false
+// console.log([]==[])   //false
+
+
+
+//take a string print capial first letter for each word and print each word in new line
+
+// let str="this is sanjay aggi"
+
+// let capitalizedStr=str.split(" ").map((word)=>word.charAt(0).toUpperCase()+word.slice(1))
+// capitalizedStr.forEach((word)=>console.log(word)) //This Is Sanjay Aggi
+
+
+
+
+// console.log(typeof NaN) //number
+// console.log(isNaN(NaN)) //true
+// console.log(Number.isNaN(NaN)) //true
+// console.log(typeof object) //object
+
+
+// var a=10;
+
+// console.log(++a) //11
+// console.log(a++) //11
+// console.log(a) //12
+
+
+//~ bitwise not or tlide operator
+
+// let a=10;
+// let b=~a;
+// console.log(b) //-11
+
+//caret operator
+
+// let a=10;
+// let b=20;
+// let c=a^b;
+// console.log(c) //30
+
+
+
+
